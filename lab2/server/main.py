@@ -5,7 +5,7 @@ def is_palindrome(num):
 
 def main():
     host = '0.0.0.0'
-    port = 5001
+    port = 5000
 
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server.bind((host, port))
